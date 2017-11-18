@@ -7,4 +7,6 @@ The tasks performed by the administrators include defining feature elements, cre
 
 # Major Components
 
+## Database as a service
+
 
