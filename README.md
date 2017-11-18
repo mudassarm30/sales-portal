@@ -17,4 +17,12 @@ The API for the portal is a stateful webservice that can be accessed after succe
 
 ## Datatables 
 
-The Datatables is an open source grid control for populating, sorting, searching and displaying data in a tabular form to the users. 
+The Datatables is an open source grid control for populating, sorting, searching and displaying data in a tabular form to the users (https://datatables.net).
+
+## HttpRequester
+
+The HttpRequester is used to perform http requests to the above mentioned rest webservices from the server side API. 
+
+## Pages
+
+There are five php pages in the root folder for signup, signin, password change/rest and dashboard. 
