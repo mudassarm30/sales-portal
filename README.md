@@ -10,3 +10,7 @@ The tasks performed by the administrators include defining feature elements, cre
 ## Database as a service
 
 The database operations are performed using the restify db restful service (see here https://restifydb.com). The RestifyDb provides a very easy to configure restful webservice for any database. The restful service for database is deployed at http://www.originssoft.com/api/dbenteris and is made accessible through the host www.originssoft.com only (using .htaccess). For inserting, updating and getting data from the restful service we simply use HTTP GET/PUT/POST requests from PHP. 
+
+## API for Portal
+
+The API for the portal is a stateful webservice that can be accessed after successful login for performing all the operations. The API contains all the business logic that executes on the server side. The folder sales-portal/api contains all the directory structure for all the APIs. Depending upon the logged in user, the role(s) assigned to the user are fetched and the feature elements are stored in the session. The different APIs require user to have certain feature elements to provide authorization so API responds with unauthorized access if a certain required feature element is not in the role(s) assigned to the user. The different menus and sections are made hidden from the user depending upon these feature elements. 
