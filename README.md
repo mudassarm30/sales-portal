@@ -25,4 +25,4 @@ The HttpRequester is used to perform http requests to the above mentioned rest w
 
 ## Pages
 
-There are five php pages in the root folder for signup, signin, password change/rest and dashboard. 
+There are five php pages in the root folder for signup, signin, password change/rest and dashboard. The index.php is the dashboard page that contains the side menu and the content section (that loads a page depending upon the selected menu). 
