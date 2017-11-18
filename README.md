@@ -9,4 +9,4 @@ The tasks performed by the administrators include defining feature elements, cre
 
 ## Database as a service
 
-
+The database operation are performed using the restify db restful service (see here https://restifydb.com). The RestifyDb provides a very easy to configure restful webservice for any database. The restful service for database is deployed at http://www.originssoft.com/api/dbenteris and is made accessible through the host www.originssoft.com only (using .htaccess). For inserting, updating and getting data from the restful service we simply use HTTP GET/PUT/POST requests from PHP. 
